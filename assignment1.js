@@ -1,9 +1,17 @@
 // Names and scores of 15 students
 const students = [
-  [ "Sese", 78],
+  [ "Sese", 88],
   [ "Diwash", 92],
   [ "Prasanna", 72],
-  ["Samjhana", 90]
+  ["Samjhana", 82],
+  ["Sahil", 68],
+  ["Abhinas", 66],
+  ["Bishesh", 80],
+  ["Uddhav", 70],
+  ["Saroz", 89],
+  ["Sabin", 89],
+
+
 
   // Add more students as needed
 ];
@@ -23,5 +31,6 @@ for (let i = 0; i < students.length; i++) {
   let student_score = students[i][1];
 
   // Displaying the name and score
-  console.log("Student Name: " + student_name + ", Student Score: " + student_score);
+  console.log((i+1) +". Student Name: " + student_name
+   + ", Student Score: " + student_score);
 }
